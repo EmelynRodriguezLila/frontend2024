@@ -7,7 +7,10 @@ pasatiempos: [
   "Dormir",
   "Noviar"
 ],
-hobbie: "Mi Tilino",
+hobbie: [
+  "Mi Tilino",
+  "Mi cielo"
+],
 signo: "Escorpio",
 fechaN: "01/11/02",
 lugarN: "Tuxtepec"
@@ -31,7 +34,11 @@ function App() {
             <li>{persona.pasatiempos[1]}</li>
             <li>{persona.pasatiempos[2]}</li>
           </ul>
-        <li>Hobbies: {persona.hobbie}</li>
+        <li>Hobbies:</li>
+          <ul>
+            <li>{persona.hobbie[0]}</li>
+            <li>{persona.hobbie[0]}</li>
+          </ul>
         <li>Fecha de naciemiento: {persona.fechaN}</li>
         <li>Lugar de naciemiento: {persona.lugarN}</li>
         <li>Signo Zodiacal:{persona.signo}</li>
